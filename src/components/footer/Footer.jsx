@@ -31,7 +31,7 @@ function Footer() {
         <div className="footer-content-right">
           <h2>{t('GET-IN-TOUCH')}</h2>
           <ul>
-            <li>+38 063 107 00 11</li>
+            <li>+38 068 107 00 11</li>
             <li>restaurant.dubai.kiev@gmail.com</li>
           </ul>
         </div>
