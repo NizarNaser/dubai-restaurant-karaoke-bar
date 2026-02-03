@@ -9,7 +9,7 @@ import LoginPopup from "./components/loginPopup/LoginPopup"
 
 
 
-function App() { 
+function App() {
 
   const [showLogin,setShowLogin] = useState(false)
   return (
@@ -18,9 +18,9 @@ function App() {
     <div className="app">
       <Navbar setShowLogin={setShowLogin}/>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/cart" element={<Cart/>}/>
-        <Route path="/order" element={<PlaceOrder/>}/>
+        <Route path="/dubai-restaurant" element={<Home/>}/>
+        <Route path="/dubai-restaurant/cart" element={<Cart/>}/>
+        <Route path="/dubai-restaurant/order" element={<PlaceOrder/>}/>
 
       </Routes>
      
